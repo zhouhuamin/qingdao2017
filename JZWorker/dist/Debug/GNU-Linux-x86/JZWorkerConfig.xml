@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GB2312"?>
+<ConfigInfo>
+	<RebootFlag>1</RebootFlag>
+	<NetCardName>eth0</NetCardName>
+	<ServiceList>
+		<Service SeqNo="1" IP="192.168.1.193" Port="11001" Port2="11002" Role="mainhost"/>
+		<Service SeqNo="2" IP="192.168.1.187" Port="11001" Port2="11002" Role="backhost"/>
+		<Service SeqNo="3" IP="192.168.1.186" Port="11001" Port2="11002" Role="backhost"/>
+		<Service SeqNo="4" IP="192.168.1.140" Port="11001" Port2="11002" Role="backhost"/>
+	</ServiceList>
+	<ProxyIP1>192.168.1.186</ProxyIP1>
+	<ProxyPort1>9001</ProxyPort1>
+	<ProxyIP2>192.168.1.187</ProxyIP2>
+	<ProxyPort2>9001</ProxyPort2>
+	<ChannelConfig>
+		<ChannelNo>7</ChannelNo>
+		<ChannelNo>8</ChannelNo>
+	</ChannelConfig>
+</ConfigInfo>

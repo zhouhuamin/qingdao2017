@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="GB2312"?>
+<ConfigInfo>
+	<NetCardName>eth0</NetCardName>
+	<ChannelList>
+		 <ChannelNo SeqNo = "1">
+			<AbsoluteTime>03:01</AbsoluteTime>
+			<RelativeTime attr="day">0</RelativeTime>
+		</ChannelNo>
+
+		 <ChannelNo SeqNo = "2">
+			<AbsoluteTime>03:11</AbsoluteTime>
+			<RelativeTime attr="day">0</RelativeTime>
+		</ChannelNo>
+
+		 <ChannelNo SeqNo = "3">
+			<AbsoluteTime>03:21</AbsoluteTime>
+			<RelativeTime attr="day">0</RelativeTime>
+		</ChannelNo>
+
+		 <ChannelNo SeqNo = "4">
+			<AbsoluteTime>03:31</AbsoluteTime>
+			<RelativeTime attr="day">0</RelativeTime>
+		</ChannelNo>
+
+		 <ChannelNo SeqNo = "5">
+			<AbsoluteTime>03:35</AbsoluteTime>
+			<RelativeTime attr="day">0</RelativeTime>
+		</ChannelNo>
+
+		 <ChannelNo SeqNo = "6">
+			<AbsoluteTime>03:21</AbsoluteTime>
+			<RelativeTime attr="day">0</RelativeTime>
+		</ChannelNo>
+
+		 <ChannelNo SeqNo = "7">
+			<AbsoluteTime>03:31</AbsoluteTime>
+			<RelativeTime attr="day">0</RelativeTime>
+		</ChannelNo>	
+
+		 <ChannelNo SeqNo = "8">
+			<AbsoluteTime>03:41</AbsoluteTime>
+			<RelativeTime attr="day">0</RelativeTime>
+		</ChannelNo>
+	</ChannelList>
+</ConfigInfo>

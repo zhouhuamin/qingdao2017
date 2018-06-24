@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="GB2312"?>
+<ConfigInfo>
+	<HostRole>backhost</HostRole>
+	<LocalPort>11001</LocalPort>
+	<LocalPort2>11002</LocalPort2>
+	<NetCardName>eth0</NetCardName>
+	<HeartbeatTime>3</HeartbeatTime>
+	<HostList>
+		<HostInfo>
+			<HostName>192.168.1.186</HostName>
+			<ChannelNo>1</ChannelNo>
+			<ChannelNo>2</ChannelNo>
+		</HostInfo>
+		<HostInfo>
+			<HostName>192.168.1.187</HostName>
+			<ChannelNo>3</ChannelNo>
+			<ChannelNo>4</ChannelNo>
+		</HostInfo>
+		<HostInfo>
+			<HostName>192.168.1.193</HostName>
+			<ChannelNo>5</ChannelNo>
+		</HostInfo>
+		<HostInfo>
+			<HostName>192.168.1.140</HostName>
+			<ChannelNo>7</ChannelNo>
+			<ChannelNo>8</ChannelNo>
+		</HostInfo>
+	</HostList>
+</ConfigInfo>

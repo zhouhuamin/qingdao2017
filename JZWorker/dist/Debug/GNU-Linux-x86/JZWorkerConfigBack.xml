@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="GB2312"?>
+<ConfigInfo>
+	<LocalIP>192.168.1.140</LocalIP>
+	<RemoteIP>127.0.0.1</RemoteIP>
+	<RemotePort>11001</RemotePort>
+	<ProxyIP1>192.168.1.154</ProxyIP1>
+	<ProxyPort1>9001</ProxyPort1>
+	<ProxyIP2></ProxyIP2>
+	<ProxyPort2></ProxyPort2>
+	<ChannelConfig>
+		<ChannelNo>1</ChannelNo>
+		<ChannelNo>2</ChannelNo>
+		<ChannelNo>3</ChannelNo>
+		<ChannelNo>4</ChannelNo>
+		<ChannelNo>5</ChannelNo>
+		<ChannelNo>6</ChannelNo>
+	</ChannelConfig>
+</ConfigInfo>

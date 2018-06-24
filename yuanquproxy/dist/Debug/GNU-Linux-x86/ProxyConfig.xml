@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312"?>
+<ConfigInfo>
+	<KaKouIP>192.168.1.221</KaKouIP>
+	<KaKouPort>9002</KaKouPort>
+	<WebURL>mdqy195905.iask.in/ipCar</WebURL>
+	<LocalPort>9001</LocalPort>
+</ConfigInfo>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles" displayName="头文件" projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles" displayName="源文件" projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles" displayName="资源文件" projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="测试文件"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="重要文件"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <itemPath>CJZPlatformProxy.cpp</itemPath>
+    <itemPath>CJZPlatformProxy.h</itemPath>
+    <itemPath>../include/MutexGuard.cpp</itemPath>
+    <itemPath>../include/MutexGuard.h</itemPath>
+    <itemPath>../include/PlatProxy.h</itemPath>
+    <itemPath>../include/SysMutex.cpp</itemPath>
+    <itemPath>../include/SysMutex.h</itemPath>
+    <itemPath>cbasicdataaccess.cpp</itemPath>
+    <itemPath>cbasicdataaccess.h</itemPath>
+    <itemPath>../include/cppmysql.cpp</itemPath>
+    <itemPath>../include/cppmysql.h</itemPath>
+    <itemPath>tinyXML</itemPath>
+    <itemPath>tinyXML/tinystr.cpp</itemPath>
+    <itemPath>tinyXML/tinystr.h</itemPath>
+    <itemPath>tinyXML/tinyxml.cpp</itemPath>
+    <itemPath>tinyXML/tinyxml.h</itemPath>
+    <itemPath>tinyXML/tinyxmlerror.cpp</itemPath>
+    <itemPath>tinyXML/tinyxmlparser.cpp</itemPath>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="2">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <incDir>
+            <pElem>/usr/include/mysql</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>/usr/lib/libCustomsProxy.${CND_DLIB_EXT}</output>
+          <linkerLibItems>
+            <linkerLibFileItem>/usr/lib/mysql/libmysqlclient_r.so</linkerLibFileItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="../include/MutexGuard.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../include/MutexGuard.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/PlatProxy.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/SysMutex.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../include/SysMutex.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/cppmysql.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../include/cppmysql.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CJZPlatformProxy.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CJZPlatformProxy.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cbasicdataaccess.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cbasicdataaccess.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tinyXML" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tinyXML/tinystr.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tinyXML/tinystr.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tinyXML/tinyxml.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tinyXML/tinyxml.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tinyXML/tinyxmlerror.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tinyXML/tinyxmlparser.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="2">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="../include/MutexGuard.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../include/MutexGuard.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/PlatProxy.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/SysMutex.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../include/SysMutex.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/cppmysql.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../include/cppmysql.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CJZPlatformProxy.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CJZPlatformProxy.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cbasicdataaccess.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cbasicdataaccess.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tinyXML" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tinyXML/tinystr.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tinyXML/tinystr.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tinyXML/tinyxml.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tinyXML/tinyxml.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tinyXML/tinyxmlerror.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tinyXML/tinyxmlparser.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
